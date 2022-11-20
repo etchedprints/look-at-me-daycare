@@ -30,7 +30,7 @@ export const query = graphql`
     mdx(id: {eq: $id}) {
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MM DD, YY")
         hero_image_alt
         hero_image_credit_link
         hero_image_credit_text
