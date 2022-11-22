@@ -10,18 +10,18 @@ const PrivacyPage = () => {
         <h2>Information we collect</h2>
         <p>Look At Me user settings are saved on each device individually. The app keeps User defaults within the app and the children data with Apple's Core Data on the device. When a user purchases a subscription, the apple uses Apple's StoreKit framework and the users iTunes credentials to subscribe to the app.</p>
 
-        <p>The Look At Me app also uses RevenueCat, Inc., for subscriptions. <a href="https://www.revenuecat.com">RevenueCat</a> It is a mobile framework and backend that provides reliable and centralized handling of Apple and Google subscriptions. Look At Me, and Etched Prints LLC takes NO responsibility or liability for RevenueCat, Inc content or activities within their framework and the data collected and used by RevenueCat, Inc. To learn more about their Privacy Policy, please check out these links. 
+        <p>The Look At Me app also uses RevenueCat, Inc., for subscriptions. <a href="https://www.revenuecat.com">RevenueCat</a> It is a mobile framework and backend that provides reliable and centralized handling of Apple and Google subscriptions. Look At Me, and Etched Prints LLC takes NO responsibility or liability for RevenueCat, Inc content or activities within their framework and the data collected and used by RevenueCat, Inc. To learn more about their Privacy Policy, please check out these links.</p>
         <a href="https://www.revenuecat.com/privacy">RevenueCat Privacy</a> | <a href="https://www.revenuecat.com/dpa">RevenueCat DPA</a>
 
         <hr></hr>
 
         <h2>iCloud</h2>
-        <p>Look At Me does not use Apple's iCloud storage service. We know you might install the app on multiple iOS devices using the iTunes Apple ID for your business. This Apple ID may be different from your personal or employees Apple ID. So for your convenience, this is the second reason children's data is on each device and not stored in the cloud.
+        <p>Look At Me does not use Apple's iCloud storage service. We know you might install the app on multiple iOS devices using the iTunes Apple ID for your business. This Apple ID may be different from your personal or employees Apple ID. So for your convenience, this is the second reason children's data is on each device and not stored in the cloud.</p>
 
         <hr></hr>
 
         <h2>Ads and Analytics</h2>
-        <p>Look At Me uses Apples built-in App Analytic system. <br>Apple, Inc. does collect app analytics&nbsp;<a href="https://developer.apple.com/app-store-connect/analytics/">https://developer.apple.com/app-store-connect/analytics/</a><br>Please review RevenueCat, Inc policy also. <br><a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a><br><a href="https://www.revenuecat.com/dpa">https://www.revenuecat.com/dpa</a></p>
+        <p>Look At Me uses Apples built-in App Analytic system. <br></br>Apple, Inc. does collect app analytics&nbsp;<a href="https://developer.apple.com/app-store-connect/analytics/">https://developer.apple.com/app-store-connect/analytics/</a><br></br>Please review RevenueCat, Inc policy also. <br></br><a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a><br></br><a href="https://www.revenuecat.com/dpa">https://www.revenuecat.com/dpa</a></p>
 
         <hr></hr>
 
@@ -50,7 +50,7 @@ const PrivacyPage = () => {
 
         <hr></hr>
 
-        <h2>Children’s Online Privacy Protection Act Compliance</h2>
+        <h2>Children's Online Privacy Protection Act Compliance</h2>
         <p>We never collect or maintain information at our website from those we know are under 13, and no part of our website is structured to attract anyone under 13.</p>
 
         <hr></hr>
