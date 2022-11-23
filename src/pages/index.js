@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Seo from '../components/seo'
 
@@ -9,34 +10,34 @@ const IndexPage = () => {
 
       <section>
         <nav>
-          <ul className={navLinks}>
+          <ul>
             
-            <li className={navLinkItem}>
-              <Link to="/" className={navLinkText}>
+            <li>
+              <Link to="/">
                 Home
               </Link>
             </li>
             
-            <li className={navLinkItem}>
-              <Link to="#download" className={navLinkText}>
+            <li>
+              <Link to="/#download">
                 DOWNLOAD
               </Link>
             </li>
             
-            <li className={navLinkItem}>
-              <Link to="#presskit" className={navLinkText}>
+            <li>
+              <Link to="/#presskit">
                 PRESSKIT
               </Link>
             </li>
 
-            <li className={navLinkItem}>
-              <Link to="#features" className={navLinkText}>
+            <li>
+              <Link to="/#features">
                 FEATURES
               </Link>
             </li>
             
-            <li className={navLinkItem}>
-              <Link to="#videos" className={navLinkText}>
+            <li>
+              <Link to="/#videos">
                 VIDEOS
               </Link>
             </li>
@@ -46,7 +47,7 @@ const IndexPage = () => {
       </section>
  
 
-      <section class="download">
+      <section id='download'>
         <main>
           <h1>Free to try, simple, daycare charting app for iPhone and iPad.</h1>
           <h1>Email or Message a PDF to a parent or guardian.</h1>
@@ -60,13 +61,13 @@ const IndexPage = () => {
         </aside>
       </section>
 
-      <section class="presskit">
+      <section id='presskit'>
         <h1>Press Kit</h1>
         <h4>Learn More!</h4>
         <button><a href='/downloads/presskit.zip'>DOWNLOAD</a></button>
       </section>
 
-      <section class="features">
+      <section id='features'>
         <h1>FEATURES</h1>
         <h4>Make tracking your day easier!</h4>
         <aside>
@@ -97,7 +98,7 @@ const IndexPage = () => {
 
       </section>
 
-      <section class="video">
+      <section id='videos'>
         <h1>Videos</h1>
         <h4>Learn more about Look At Me - Daycare</h4>
 
