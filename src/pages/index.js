@@ -8,6 +8,45 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
 
       <section>
+        <nav>
+          <ul className={navLinks}>
+            
+            <li className={navLinkItem}>
+              <Link to="/" className={navLinkText}>
+                Home
+              </Link>
+            </li>
+            
+            <li className={navLinkItem}>
+              <Link to="/#download" className={navLinkText}>
+                DOWNLOAD
+              </Link>
+            </li>
+            
+            <li className={navLinkItem}>
+              <Link to="/#presskit" className={navLinkText}>
+                PRESSKIT
+              </Link>
+            </li>
+
+            <li className={navLinkItem}>
+              <Link to="/#features" className={navLinkText}>
+                FEATURES
+              </Link>
+            </li>
+            
+            <li className={navLinkItem}>
+              <Link to="/#videos" className={navLinkText}>
+                VIDEOS
+              </Link>
+            </li>
+          
+          </ul>
+        </nav>
+      </section>
+ 
+
+      <section class="download">
         <main>
           <h1>Free to try, simple, daycare charting app for iPhone and iPad.</h1>
           <h1>Email or Message a PDF to a parent or guardian.</h1>
@@ -21,13 +60,15 @@ const IndexPage = () => {
         </aside>
       </section>
 
-      <section>
+      <section class="presskit">
         <h1>Press Kit</h1>
         <h4>Learn More!</h4>
         <button><a href='/downloads/presskit.zip'>DOWNLOAD</a></button>
       </section>
 
-      <section>
+      <section class="features">
+        <h1>FEATURES</h1>
+        <h4>Make tracking your day easier!</h4>
         <aside>
           <StaticImage
             alt="Look At Me Daycare running on iPad"
@@ -56,7 +97,7 @@ const IndexPage = () => {
 
       </section>
 
-      <section>
+      <section class="video">
         <h1>Videos</h1>
         <h4>Learn more about Look At Me - Daycare</h4>
 
