@@ -18,25 +18,25 @@ const IndexPage = () => {
             </li>
             
             <li className={navLinkItem}>
-              <Link to="/#download" className={navLinkText}>
+              <Link to="#download" className={navLinkText}>
                 DOWNLOAD
               </Link>
             </li>
             
             <li className={navLinkItem}>
-              <Link to="/#presskit" className={navLinkText}>
+              <Link to="#presskit" className={navLinkText}>
                 PRESSKIT
               </Link>
             </li>
 
             <li className={navLinkItem}>
-              <Link to="/#features" className={navLinkText}>
+              <Link to="#features" className={navLinkText}>
                 FEATURES
               </Link>
             </li>
             
             <li className={navLinkItem}>
-              <Link to="/#videos" className={navLinkText}>
+              <Link to="#videos" className={navLinkText}>
                 VIDEOS
               </Link>
             </li>
