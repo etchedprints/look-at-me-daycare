@@ -51,20 +51,23 @@ const IndexPage = () => {
         <main>
           <h1>Free to try, simple, daycare charting app for iPhone and iPad.</h1>
           <h1>Email or Message a PDF to a parent or guardian.</h1>
-          <button><a href='www.apple.com'>START NOW FOR FREE</a></button>
+
+          <button><a href='https://apps.apple.com/us/app/look-at-me-daycare/id1254621223'>START NOW FOR FREE</a></button>
+        
         </main>
+        
         <aside>
-        <StaticImage
-          alt="Look At Me Daycare running on iPhone"
-          src="../images/iphone-running-app.png"
-        />
+          <StaticImage
+            alt="Look At Me Daycare running on iPhone"
+            src="../images/iphone-running-app.png"
+          />
         </aside>
       </section>
 
       <section id='presskit'>
         <h1>Press Kit</h1>
         <h4>Learn More!</h4>
-        <button><a href='/downloads/presskit.zip'>DOWNLOAD</a></button>
+        <button><a href='../downloads/presskit.zip'>DOWNLOAD</a></button>
       </section>
 
       <section id='features'>
