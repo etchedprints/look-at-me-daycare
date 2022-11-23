@@ -25,12 +25,18 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
       <header className={siteTitle}>
-        <StaticImage
-          alt="logo of Look At Me Daycare"
-          src="../images/website-icon.png"
-          />
+
+        <Link to="/" className={navLinkText}>
+          <StaticImage
+            alt="logo of Look At Me Daycare"
+            src="../images/website-icon.png"
+            />
+        </Link>
+
         {data.site.siteMetadata.title}
+
       </header>
+
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>
@@ -60,6 +66,7 @@ const Layout = ({ pageTitle, children }) => {
           </li>
         </ul>
       </nav>
+      
       <main>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
@@ -96,7 +103,7 @@ const Layout = ({ pageTitle, children }) => {
           </ul>
         </nav>
       </footer>
-      
+
     </div>
   )
 }
