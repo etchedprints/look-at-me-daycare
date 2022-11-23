@@ -66,13 +66,31 @@ const Layout = ({ pageTitle, children }) => {
           </li>
         </ul>
       </nav>
-      
+
       <main>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
 
       <footer>
+
+        <section>
+          <h1>No More Paper!</h1>
+          <h4>Available on Apple™ iOS devices.</h4>
+          <h4>Download now to get started!</h4>
+
+      
+
+          <Link to="https://apps.apple.com/us/app/look-at-me-daycare/id1254621223" className={navLinkText}>
+            <StaticImage
+              alt="logo of Look At Me Daycare"
+              src="../images/app-store-badge.svg"
+            />
+          </Link>
+
+
+        </section>
+
         <nav>
           <ul className={navLinks}>
             <li className={navLinkItem}>
